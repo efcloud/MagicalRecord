@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   s.name     = 'MagicalRecord'
-  s.version  = '2.5.0'
+  s.version  = '2.5.1'
   s.license  = 'MIT'
   s.summary  = 'Super Awesome Easy Fetching for Core Data!'
   s.homepage = 'https://github.com/magicalpanda/MagicalRecord'
