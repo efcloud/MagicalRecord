@@ -1,0 +1,18 @@
+PODS:
+  - MagicalRecord (2.5.0):
+    - MagicalRecord/Core (= 2.5.0)
+  - MagicalRecord/Core (2.5.0)
+
+DEPENDENCIES:
+  - MagicalRecord (from `../../`)
+
+EXTERNAL SOURCES:
+  MagicalRecord:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  MagicalRecord: ff6c910102cca21848d9ffe252570fd01f461db9
+
+PODFILE CHECKSUM: 8bc52fe38fb0a97519b860135978cb1c61f3a4a8
+
+COCOAPODS: 1.15.2
