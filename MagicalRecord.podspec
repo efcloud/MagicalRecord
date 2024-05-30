@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   s.name     = 'MagicalRecord'
-  s.version  = '2.5.0'
+  s.version  = '2.5.1'
   s.license  = 'MIT'
   s.summary  = 'Super Awesome Easy Fetching for Core Data!'
   s.homepage = 'https://github.com/magicalpanda/MagicalRecord'
@@ -26,11 +26,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'ShorthandMethodAliases' do |sp|
     sp.source_files = '**/MagicalRecordShorthandMethodAliases.h'
-  end
-
-  s.subspec 'CocoaLumberjack' do |sp|
-    sp.dependency 'CocoaLumberjack', '~> 3.0'
-    sp.dependency 'MagicalRecord/Core'
   end
 
 end
