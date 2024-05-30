@@ -28,9 +28,4 @@ Pod::Spec.new do |s|
     sp.source_files = '**/MagicalRecordShorthandMethodAliases.h'
   end
 
-  s.subspec 'CocoaLumberjack' do |sp|
-    sp.dependency 'CocoaLumberjack', '~> 3.0'
-    sp.dependency 'MagicalRecord/Core'
-  end
-
 end
