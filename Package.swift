@@ -18,6 +18,7 @@ let package = Package(
         .target(
             name: "MagicalRecord",
             dependencies: [.product(name: "CocoaLumberjack", package: "CocoaLumberjack")],
-            path: "MagicalRecord")
+            path: "MagicalRecord",
+            publicHeadersPath: "")
     ]
 )
